@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Remotes -->
+    <remote name="datafrog" fetch="https://github.com/Data-Frog-Central/"/>
+
+    <!-- Default -->
+    <default revision="main" remote="datafrog" sync-j="4"/>
+
+    <!-- Main Repo -->
+    <project name="HC-RTOS" path="." revision="test"/>
+
+    <!-- Submodules -->
+    <project name="HC-RTOS-FreeRTOS-Kernel" path="components/kernel/source/freertos"/>
+    <project name="HC-RTOS-lvgl" path="components/liblvgl/source/lvgl" revision="release/v8.3"/>
+    <project name="libretro-common" path="components/applications/apps-sf2000/source/libs/libretro-common" revision="master"/>
+
+</manifest>
