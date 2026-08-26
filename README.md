@@ -1,8 +1,8 @@
-# How to download HC-RTOS
+# How to download NocturnalRTOS
 ### Make sure you have Repo installed!  
 ```
-mkdir HC-RTOS   
-cd HC-RTOS   
-repo init -u https://github.com/Data-Frog-Central/HC-RTOS-Manifest  
+mkdir NocturnalRTOS   
+cd NocturnalRTOS   
+repo init -u https://github.com/Data-Frog-Central/NocturnalRTOS-Manifest  
 repo sync   
 ```
