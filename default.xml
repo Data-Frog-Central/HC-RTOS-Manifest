@@ -8,13 +8,13 @@
     <default revision="main" remote="datafrog" sync-j="4"/>
 
     <!-- Main Repo -->
-    <project name="HC-RTOS" path="." revision="test"/>
+    <project name="NocturnalRTOS" path="." revision="Nocturnal"/>
 
     <!-- Submodules -->
     <project name="HC-RTOS-FreeRTOS-Kernel" path="components/kernel/source/freertos"/>
     <project name="HC-RTOS-lvgl" path="components/liblvgl/source/lvgl" revision="release/v8.3"/>
-    <project name="libretro-common" path="components/applications/apps-sf2000/source/libs/libretro-common" revision="master"/>
-    <project name="DartOS-Cores" path="components/applications/apps-sf2000/source/libs/cores"/>
-    <project name="zip" remote="kuba" path="components/applications/apps-sf2000/source/libs/zip" revision="master"/>
+    <project name="libretro-common" path="components/applications/apps-phobos/source/libs/libretro-common" revision="master"/>
+    <project name="Argent-Cores" path="components/applications/apps-phobos/source/libs/cores"/>
+    <project name="zip" remote="kuba" path="components/applications/apps-phobos/source/libs/zip" revision="master"/>
 
 </manifest>
